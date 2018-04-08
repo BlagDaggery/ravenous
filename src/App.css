@@ -32,6 +32,21 @@ input:focus {
 
 .App {
   font-family: 'Work Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Content {
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.Content::after {
+  content: '\00a0';
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
 
 h1 {
@@ -41,4 +56,23 @@ h1 {
   font-family: Poppins, sans-serif;
   font-size: 1.8rem;
   color: #fff;
+}
+
+footer {
+  background-color: #cca353;
+  text-align: center;
+}
+
+.footer-link {
+  padding: 20px 0;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #fff;
+  transition: color .25s, text-decoration .25s;
+}
+
+.footer-link a:hover {
+  color: #d4cfcf;
 }
