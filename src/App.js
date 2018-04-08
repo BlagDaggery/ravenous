@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import BusinessList from './components/BusinessList/BusinessList';
 import SearchBar from './components/SearchBar/SearchBar';
@@ -27,7 +27,7 @@ class App extends React.Component {
           </div>
           <footer>
             <div className="footer-link" >
-              <a href="https://github.com/BlagDaggery/ravenous" target="_blank" title="View GitHub Repository">View GitHub Repository</a>
+              <a href="https://github.com/BlagDaggery/ravenous" title="View GitHub Repository">View GitHub Repository</a>
             </div>
           </footer>
       </div>
