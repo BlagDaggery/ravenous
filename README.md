@@ -1,6 +1,9 @@
 # Ravenous
 This program is an activity for the Codecademy intensive course "Build Front-End Web Applications from Scratch." In this project we were tasked with using the JavaScript library React to build a clone of Yelp, using data from the Yelp API.
 
+## ⚠️ No Longer Functional ⚠️
+This project no longer works. There are no plans at this time to get it working again.
+
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
